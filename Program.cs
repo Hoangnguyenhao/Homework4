@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -15,7 +15,7 @@ class BookInfo
         PublishYear = year;
     }
 }
-
+// 
 class BookManager
 {
     private List<BookInfo> bookList = new List<BookInfo>();
@@ -101,13 +101,13 @@ class App
         BookManager manager = new BookManager();
         while (true)
         {
-            Console.WriteLine("\nHệ thống quản lý sách:");
-            Console.WriteLine("1. Thêm sách mới");
-            Console.WriteLine("2. Hiển thị danh sách sách");
-            Console.WriteLine("3. Tìm kiếm sách theo tên");
-            Console.WriteLine("4. Lọc sách theo tác giả");
-            Console.WriteLine("5. Thoát");
-            Console.Write("Chọn chức năng: ");
+            Console.WriteLine("\nHe Thong Quan Ly Sach:");
+            Console.WriteLine("1. Them sach moi");
+            Console.WriteLine("2. Hien thi danh sach");
+            Console.WriteLine("3. Tim kiem sach theo ten");
+            Console.WriteLine("4. Loc sach theo tac gia");
+            Console.WriteLine("5. Thoat");
+            Console.Write("Chon chuc nang: ");
 
             string choice = Console.ReadLine();
             switch (choice)
